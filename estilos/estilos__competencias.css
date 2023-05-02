@@ -80,3 +80,23 @@ nav ul li a {
     font-size: 18px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 320px) {
+    .vistas{
+    display: flex;
+    flex-direction: column;
+    }
+}
+@media screen and (max-width: 375px) {
+    .vistas{
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .vistas{
+    display: flex;
+    flex-direction: column;
+    }
+}
