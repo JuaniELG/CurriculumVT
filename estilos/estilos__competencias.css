@@ -1,0 +1,82 @@
+.vistas{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.vistas__li__a{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: #005f73;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+}
+
+.vistas__li__a :hover{
+    transform: scale(1.05);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+body {
+    background-color: #f2f2f2;
+}
+
+
+
+
+h1 {
+    margin: 5;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.contenedorpagina {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.subtitulos h2 {
+    margin-top: 0;
+}
+
+.foto {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.competencias span {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
